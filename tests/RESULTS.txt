@@ -1,0 +1,130 @@
+[PASS] GranularPitch -12.0 st  спектр: 224.8 Гц, ожидалось 220.0 Гц (допуск метода ±6.4)
+[PASS] GranularPitch -5.0 st  спектр: 332.0 Гц, ожидалось 329.6 Гц (допуск метода ±3.7)
+[PASS] GranularPitch 4.0 st  спектр: 552.0 Гц, ожидалось 554.4 Гц (допуск метода ±3.8)
+[PASS] GranularPitch 7.0 st  спектр: 654.7 Гц, ожидалось 659.3 Гц (допуск метода ±6.4)
+[PASS] GranularPitch 12.0 st  спектр: 870.8 Гц, ожидалось 880.0 Гц (допуск метода ±11.8)
+[PASS] GranularPitch громкость  rms 10ms окна: min 0.324 max 0.363 (ожид. ≈0.35)
+[PASS] WSOLA f=0.5  len 66150 (want 66150), freq 440.0 Hz
+[PASS] WSOLA f=0.8  len 105840 (want 105840), freq 440.0 Hz
+[PASS] WSOLA f=1.5  len 198450 (want 198450), freq 440.0 Hz
+[PASS] WSOLA f=2.0  len 264600 (want 264600), freq 440.0 Hz
+[PASS] Render pitch +0 st, speed 1.50x  len 117600 (want 117600), freq 300.0 (want 300.0), rms 0.354 (want 0.354)
+[PASS] Render pitch +5 st, speed 1.00x  len 176400 (want 176400), freq 400.5 (want 400.5), rms 0.354 (want 0.354)
+[PASS] Render pitch +5 st, speed 1.25x  len 141120 (want 141120), freq 400.5 (want 400.5), rms 0.353 (want 0.354)
+[PASS] Render pitch -7 st, speed 0.80x  len 220500 (want 220500), freq 200.2 (want 200.2), rms 0.354 (want 0.354)
+[PASS] Render pitch +12 st, speed 2.00x  len 88200 (want 88200), freq 600.0 (want 600.0), rms 0.354 (want 0.354)
+[PASS] Render pitch -12 st, speed 0.50x  len 352800 (want 352800), freq 150.0 (want 150.0), rms 0.354 (want 0.354)
+[PASS] Громкость голоса +4 st / 1.0x  rms 0.183 / оригинал 0.185, peak 0.69
+[PASS] Громкость голоса -5 st / 1.0x  rms 0.180 / оригинал 0.185, peak 0.69
+[PASS] Громкость голоса +0 st / 1.3x  rms 0.184 / оригинал 0.185, peak 0.69
+[PASS] Громкость голоса +7 st / 0.9x  rms 0.180 / оригинал 0.185, peak 0.69
+[PASS] Effect ROBOT  rms 0.125 (оригинал 0.185), peak 0.81
+[PASS] Effect ALIEN  rms 0.147 (оригинал 0.185), peak 0.86
+[PASS] Effect WHISPER  rms 0.134 (оригинал 0.185), peak 1.00
+[PASS] Effect ECHO  rms 0.242 (оригинал 0.185), peak 0.92
+[PASS] Effect REVERB  rms 0.229 (оригинал 0.185), peak 0.98
+[PASS] Effect CHORUS  rms 0.142 (оригинал 0.185), peak 0.88
+[PASS] Effect FLANGER  rms 0.200 (оригинал 0.185), peak 0.99
+[PASS] Effect VIBRATO  rms 0.185 (оригинал 0.185), peak 0.69
+[PASS] Effect TREMOLO  rms 0.122 (оригинал 0.185), peak 0.69
+[PASS] Effect DISTORTION  rms 0.300 (оригинал 0.185), peak 0.40
+[PASS] Effect BITCRUSH  rms 0.187 (оригинал 0.185), peak 0.75
+[PASS] Effect TELEPHONE  rms 0.151 (оригинал 0.185), peak 0.97
+[PASS] Effect MEGAPHONE  rms 0.127 (оригинал 0.185), peak 0.60
+[PASS] Effect UNDERWATER  rms 0.195 (оригинал 0.185), peak 0.88
+[PASS] Effect VOCODER  rms 0.130 (оригинал 0.185), peak 1.00
+[PASS] Effect FAN  rms 0.119 (оригинал 0.185), peak 0.68
+[PASS] Effect REVERSE  rms 0.156 (оригинал 0.185), peak 0.69
+[PASS] Whisper шумовой  zero-crossings 18802 vs 1281
+[PASS] ECHO хвост  len +3.0s, rms хвоста 0.2970 → 0.0061
+[PASS] REVERB хвост  len +4.0s, rms хвоста 0.0818 → 0.0001
+[PASS] Реверс в реальном времени  задержка 0.24 с (первый кусок тишина: true), ошибка 0.0e+00
+[PASS] Реверс: хвост учитывает кусок  tail 10584 кадров
+[PASS] Preset original  peak 0.69
+[PASS] Preset helium  peak 0.69
+[PASS] Preset hexafluoride  peak 0.70
+[PASS] Preset robot  peak 0.78
+[PASS] Preset bigrobot  peak 0.70
+[PASS] Preset cave  peak 0.99
+[PASS] Preset spacemutant  peak 0.83
+[PASS] Preset deep  peak 0.69
+[PASS] Preset backwards  peak 0.69
+[PASS] Preset monster  peak 0.51
+[PASS] Preset smallcreature  peak 0.69
+[PASS] Preset optimus  peak 0.92
+[PASS] Preset telephone  peak 0.97
+[PASS] Preset dragon  peak 0.65
+[PASS] Preset nervous  peak 0.69
+[PASS] Preset extraterrestrial  peak 0.84
+[PASS] Preset cathedral  peak 0.99
+[PASS] Preset cyborg  peak 0.74
+[PASS] Preset poltergeist  peak 0.62
+[PASS] Preset chipmunks  peak 0.70
+[PASS] Preset android  peak 1.00
+[PASS] Preset skullmask  peak 0.55
+[PASS] Preset drunk  peak 0.67
+[PASS] Preset giant  peak 0.75
+[PASS] Preset squirrel  peak 0.69
+[PASS] Preset darkcyborg  peak 0.43
+[PASS] Preset grandcanyon  peak 0.96
+[PASS] Preset oldradio  peak 0.81
+[PASS] Preset fly  peak 0.78
+[PASS] Preset zombie  peak 0.46
+[PASS] Preset child  peak 0.69
+[PASS] Preset megaphone  peak 0.64
+[PASS] Preset fan  peak 0.68
+[PASS] Preset sarcasticrobot  peak 0.77
+[PASS] Preset ghost  peak 0.84
+[PASS] Preset retro  peak 0.69
+[PASS] Preset alien  peak 0.80
+[PASS] Preset smallalien  peak 0.80
+[PASS] Preset villain  peak 0.55
+[PASS] Preset sheep  peak 0.68
+[PASS] Preset man  peak 0.69
+[PASS] Preset woman  peak 0.69
+[PASS] Preset death  peak 0.61
+[PASS] Preset eliminator  peak 0.71
+[PASS] Preset spinning  peak 0.92
+[PASS] Preset overlord  peak 0.67
+[PASS] Preset galactic  peak 0.63
+[PASS] Preset underwater  peak 0.88
+[PASS] Preset duck  peak 0.59
+[PASS] Preset vocoder  peak 1.00
+[PASS] Preset evilpuppet  peak 0.90
+[PASS] Preset lowbattery  peak 0.52
+[PASS] Preset shrinking  peak 0.83
+[PASS] Preset devil  peak 0.77
+[PASS] Preset whisper  peak 1.00
+[PASS] Preset hall  peak 0.85
+[PASS] Preset oldman  peak 0.77
+[PASS] Preset choir  peak 0.91
+[PASS] Ambient rain  peak 0.50 rms 0.097 шов 0.008
+[PASS] Ambient wind  peak 0.50 rms 0.087 шов 0.023
+[PASS] Ambient waves  peak 0.50 rms 0.071 шов 0.019
+[PASS] Ambient white  peak 0.50 rms 0.288 шов 0.270
+[PASS] Ambient brown  peak 0.50 rms 0.105 шов 0.027
+[PASS] Фон: микс и цикл  кадров 132300, разница 10632, в последней секунде (после петли) 1807
+[PASS] Фон: два слоя суммируются  энергия 174 → 275
+[PASS] Реверс  длина 88200, относит. ошибка 1.25e-08
+[PASS] WAV round-trip 22.05k→44.1k  frames 88200, freq 1000.0
+[PASS] WAV 48k стерео→моно  frames 88201
+[PASS] WAV data size = 0  читается до конца файла
+[PASS] Не-WAV → null (уйдёт в MediaCodec)  
+[PASS] Лимит длины  TooLongException
+[PASS] FLAC стерео тон+шум  10000 кадров → 22256 байт FLAC, декодировано 40000 байт (стерео)
+[PASS] FLAC моно (L=R)  9000 кадров → 3060 байт FLAC, декодировано 18000 байт (моно)
+[PASS] FLAC короткий  100 кадров → 274 байт FLAC, декодировано 400 байт (стерео)
+[PASS] FLAC тишина  5000 кадров → 691 байт FLAC, декодировано 10000 байт (моно)
+[PASS] FLAC ровно 2 блока  8192 кадров → 18189 байт FLAC, декодировано 32768 байт (стерео)
+[PASS] FLAC полный шум (verbatim)  6000 кадров → 24064 байт FLAC, декодировано 24000 байт (стерео)
+[PASS] FLAC 1 кадр  1 кадров → 57 байт FLAC, декодировано 4 байт (стерео)
+[PASS] FLAC 4097 кадров  4097 кадров → 1410 байт FLAC, декодировано 8194 байт (моно)
+[PASS] Пресеты: уникальные id  58 готовых голосов
+[PASS] TextChunker  29 кусков, потерь нет
+[PASS] TextChunker пустой  
+[PASS] TextChunker короткий  
+[PASS] Скорость 10 мин аудио  6.1 c на десктопе (98x реального времени)
+[PASS] Отмена рендера  
+[PASS] Пустой вход  
+
+128 passed, 0 failed

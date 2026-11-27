@@ -1,0 +1,43 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    // namespace — пакет Java-кода. «private» — зарезервированное слово Java, поэтому в package-объявлении
+    // его использовать нельзя. На установленное приложение это не влияет: идентификатор пакета ниже.
+    namespace 'voice.changer.app'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'voice.changer.private'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    // Не добавлять в APK зашифрованный блок с метаданными зависимостей (его читает Google Play)
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
+    }
+
+    lint {
+        abortOnError false
+    }
+}
+
+// Зависимостей нет намеренно: ни AndroidX, ни Google Play services, ни сторонних библиотек.
+dependencies {
+}
